@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-bs-theme="">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -15,7 +15,7 @@
   </head>
   <body>
     <nav
-      class="navbar navbar-expand-lg text-bg-dark navbar-dark position-sticky top-0"
+      class="navbar bg-body navbar-expand-lg position-sticky top-0"
       style="z-index: 1000"
     >
       <div class="container">
@@ -31,15 +31,15 @@
         <a href="#" class="navbar-brand">Company</a>
 
         <form class="d-none d-lg-block">
-          <div class="input-group">
+          <div class="input-group border">
             <input
-              class="form-control"
+              class="form-control border-0"
               type="text"
               name="searchBox"
               id="search"
               placeholder="Search"
             />
-            <button type="submit" class="btn text-bg-light">
+            <button type="submit" class="btn bg-body">
               <span class="bi bi-search"></span>
             </button>
           </div>
@@ -63,7 +63,7 @@
 
           <div class="dropdown">
             <button
-              class="btn text-white d-flex dropdown-toggle align-items-center"
+              class="btn d-flex dropdown-toggle align-items-center"
               data-bs-toggle="dropdown"
             >
               <img
@@ -97,7 +97,7 @@
     <div class="mainContainer row">
       <div
         id="sidebar"
-        class="bg-light offcanvas-lg offcanvas-start d-lg-block col-2 pe-2 position-fixed"
+        class="offcanvas-lg offcanvas-start d-lg-block col-2 pe-2 position-fixed"
         style="min-height: calc(100vh - 60px)"
       >
         <div class="list-group list-group-flush">
